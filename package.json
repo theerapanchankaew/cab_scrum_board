@@ -1,0 +1,13 @@
+{
+  "name": "netlify-spa-kit",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "npx serve public",
+    "deploy:preview": "npx netlify deploy --dir=public --message \"preview\"",
+    "deploy": "npx netlify deploy --prod --dir=public"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.37.0"
+  }
+}
